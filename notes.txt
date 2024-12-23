@@ -1,0 +1,30 @@
++++++++++++++++++++++++++++++++ learn 1 ++++++++++++++++++++++++++++++++++++++
+1. NPM  [ Node Package Manager]
+2. NPX  [ Node Package Excuter]
+
+npx it is used for use the react environment from the browser without downloading in the system 
+
+npx create-react-app  -> It will take a longer time than others
+
+++++++++++++++++++++++++ React.js +++++++++++++++++++++
+react.js is framwork / libarary also 
+react.js is made by facebook  for changing a message issue
+it is not the solution of the all the problems but it cover it 
+
+--> How to run the react program
+1. npx create-react-app my-app(name)
+2.npm install (my laptop)
+3. npm run start
+4. npm run build (build folder avi jase)
+
+
++++++++++++++++++++++ Another Way to Create react app  with vite+++++++++++
+1. npm creat vite@latest
+2. give a project name
+3. select type (react)
+4. select language (javascript)
+5. Enter 
+-> run
+1.npm install
+2.npm run dev
+
