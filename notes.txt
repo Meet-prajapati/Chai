@@ -7,11 +7,11 @@ npx it is used for use the react environment from the browser without downloadin
 npx create-react-app  -> It will take a longer time than others
 
 ++++++++++++++++++++++++ React.js +++++++++++++++++++++
-react.js is framwork / libarary also 
+react.js is  libarary 
 react.js is made by facebook  for changing a message issue
 it is not the solution of the all the problems but it cover it 
 
---> How to run the react program
+----------------------------------> How to run the react program
 1. npx create-react-app my-app(name)
 2.npm install (my laptop)
 3. npm run start
@@ -27,4 +27,39 @@ it is not the solution of the all the problems but it cover it
 -> run
 1.npm install
 2.npm run dev
+
+--> react-script throw we can run or inject our code 
+---> <script type="module" src="/src/main.jsx"></script>  vite ni ander
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   Vite + React 
+->if i want to use more than one function in the App.jsx File than i have to code like this
+-> And also if i want to import another file than i have to code like this both in the one Example
+
+import Hello from "./My";
+
+function App(){
+  return(
+    <>                  // Fragment 
+    <Hello />
+    <Meet />            // JSX only allow only one value for return if you want to more than        
+                        // Rap it into one div <> </> (Fragment) For this reason it is used 
+
+    </>
+  )
+}
+
+
+function Meet(){
+  return(
+    <h1>This is Meet Own tag</h1>
+  )
+}
+export default App;
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
 

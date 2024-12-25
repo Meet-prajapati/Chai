@@ -1,0 +1,6 @@
+--------------------------- Lecture 2 -------------------
+1. Function Name and File name must be Starting From Capital Word 
+2. <> </>  It is Called Fragment it is used when we want to use multiple values( Like more than one Function).
+
+3. reactScript it is used for run the code 
+
